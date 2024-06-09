@@ -1,1 +1,10 @@
-<p>login works!</p>
+<small *ngIf='invalidLogin'>{{errorMessage}}</small><!----we use ngIf to show validation message-->
+
+<div>
+ password: <input type = "text" name= "username" [(ngModel)] = "username"> <!--interpolation{{tie the component property to a view username}} and banana 
+    in the box[{two way binding}]-->
+Password : <input type = "password" name="password" [(ngModel)] = "password" >
+<button (click)= handleLogin() >  <!--event binding -->
+    Login
+</button>
+</div>
