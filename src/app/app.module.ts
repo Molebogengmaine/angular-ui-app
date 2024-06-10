@@ -9,6 +9,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { ErrorMessageComponent } from './error-message/error-message.component';
+import { TodoComponent } from './todo/todo.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ErrorMessageComponent } from './error-message/error-message.component';
     WelcomeComponent,
     LoginComponent,
     SignupComponent,
-    ErrorMessageComponent
+    ErrorMessageComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,
