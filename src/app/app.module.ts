@@ -10,15 +10,20 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { ErrorMessageComponent } from './error-message/error-message.component';
 import { TodoComponent } from './todo/todo.component';
+import { MenuComponent } from './menu/menu.component';
+import { FooterComponent } from './footer/footer.component';
 
-@NgModule({
+@NgModule({//it is used to group angular components
+  //all js and .ts are ng Modules
   declarations: [
     AppComponent,
     WelcomeComponent,
     LoginComponent,
     SignupComponent,
     ErrorMessageComponent,
-    TodoComponent
+    TodoComponent,
+    MenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

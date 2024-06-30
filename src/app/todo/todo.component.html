@@ -1,6 +1,7 @@
 <!-----creating a table -->
-
-<table border="1">
+<h1>My Todo's </h1>
+<div class ="container">
+<table class="todo">
     <caption>
         My Daily Task
     </caption>
@@ -17,8 +18,10 @@
         <tr *ngFor="let todo of todos">
           <!---  <td> {{todo.id}} </td>-->
             <td> {{todo.description}} </td>
+            <!--formating the data-->
             <td> {{todo.date | date | uppercase}} </td>
             <td> {{todo.complete}} </td>
         </tr>
     </tbody>
 </table>
+</div>
